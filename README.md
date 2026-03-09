@@ -92,6 +92,24 @@ Normal | Mild | Severe
 
 ---
 
+## Train–Test Split
+
+To ensure reproducibility and consistent evaluation, the dataset used in this study is provided as **separate CSV files** for training and testing.
+
+```
+data/
+├── train_dataset.csv   # used for model training and federated client updates
+└── test_dataset.csv    # used for final evaluation of the global model
+```
+
+The split is performed using **stratified sampling** based on the three nomophobia classes:
+
+- Normal
+- Mild
+- Severe
+
+This ensures that class distributions remain consistent across the training and testing datasets. The test dataset is **never used during training**, enabling unbiased evaluation of model performance.
+
 # Machine Learning Models
 
 The federated framework supports several deep tabular models:

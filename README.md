@@ -169,35 +169,30 @@ Accuracy: 98.95%
 
 ---
 
-# Repository Structure
+## Repository Structure
 
-Nomophobia-FL/
-│
-├── data/
-│   ├── raw_dataset.csv
-│   ├── train_dataset.csv
-│   └── test_dataset.csv
-│
-├── models/
-│   ├── mlp_model.py
-│   ├── cnn_tabular_model.py
-│   ├── resmlp_model.py
-│   └── tabnet_model.py
-│
-├── federated/
-│   ├── client.py
-│   ├── server.py
-│   └── aggregation.py
-│
-├── privacy/
-│   ├── dp_sgd.py
-│   └── masked_update_encryption.py
-│
-├── notebooks/
-│   └── Nomophobia_FL_BestPerformance.ipynb
-│
-└── README.md
-
+```
+📦 Nomophobia-FL
+ ┣ 📂 data
+ ┃ ┣ raw_dataset.csv
+ ┃ ┣ train_dataset.csv
+ ┃ ┗ test_dataset.csv
+ ┣ 📂 models
+ ┃ ┣ mlp_model.py
+ ┃ ┣ cnn_tabular_model.py
+ ┃ ┣ resmlp_model.py
+ ┃ ┗ tabnet_model.py
+ ┣ 📂 federated
+ ┃ ┣ client.py
+ ┃ ┣ server.py
+ ┃ ┗ aggregation.py
+ ┣ 📂 privacy
+ ┃ ┣ dp_sgd.py
+ ┃ ┗ masked_update_encryption.py
+ ┣ 📂 notebooks
+ ┃ ┗ Nomophobia_FL_BestPerformance.ipynb
+ ┗ README.md
+```
 ---
 
 # Installation

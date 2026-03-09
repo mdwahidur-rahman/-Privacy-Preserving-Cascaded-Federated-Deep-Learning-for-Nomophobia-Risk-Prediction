@@ -227,14 +227,7 @@ python client.py
 
 # Citation
 
-If you use this work in your research, please cite:
-
-@article{rahman2025nomophobiaFL,
-title={Privacy-Preserving Cascaded Federated Deep Learning for Nomophobia Risk Prediction with Encrypted Masked Updates},
-author={Rahman, Md Wahidur and Khan, Rahat and Nijim, Mais and Al Aqqad, Waseem and Tomioka, Toichi and Shin, Jungpil},
-journal={IEEE Access},
-year={2025}
-}
+If you use this work in your research, please cite: Once published I will give the citations
 
 ---
 
